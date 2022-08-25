@@ -15,7 +15,7 @@
 // ======================================================================== //
 
 #include <owl/owl.h>
-#include "tetMeshQueryLib/internalTypes.h"
+#include "internalTypes.h"
 
 namespace owl {
   namespace tetQueries {
