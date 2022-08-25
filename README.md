@@ -34,6 +34,11 @@ For linux, I assume that `nvcc` is in the default path, and that there is enviro
 
 If you have any missing dependencies ccmake will tell you... just fix and re-run cmake
 
+## Building on Windows
+* Install [one-TBB](https://github.com/oneapi-src/oneTBB).
+* Modify `OptiX_INSTALL_DIR` and `TBB_ROOT_PATH` in cmake.
+* Use CMake-GUI to build Visual Studio project, then use VS to build.
+
 
 # License
 ==================================================================
