@@ -38,7 +38,9 @@ If you have any missing dependencies ccmake will tell you... just fix and re-run
 * Install [one-TBB](https://github.com/oneapi-src/oneTBB).
 * Modify `OptiX_INSTALL_DIR` and `TBB_ROOT_PATH` in cmake.
 * Use CMake-GUI to build Visual Studio project, then use VS to build.
-
+* * Specifics: source code path is ...Gitlab/owl, binaries ...Gitlab/owl/build, and after pushing the Configure button choose x64 for the optional platform.
+* * If you get "OptiX headers (optix.h and friends) not found." then define OptiX_INCLUDE manually in CMake-gui by setting it to C:/ProgramData/NVIDIA Corporation/OptiX SDK 7.0.0/include
+* * You may need to Configure twice.
 
 # License
 ==================================================================

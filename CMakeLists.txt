@@ -59,7 +59,6 @@ add_executable(cudaParticleAdvection
     cudaHelpers.cuh
     DeviceTetMesh.cuh
     HostTetMesh.cuh
-    cudaThreadedParticleAdvection.cu
     cudaParticleAdvection.cu
     )
  
